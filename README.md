@@ -12,8 +12,8 @@ jQuery
 
 
 Features:
-Scrollable Portfolio (used porfolio jQuery plugin) To Display Product
-Responsive Navigation
+- Elegant Product Display Portfolio with smart-preloading, slide animation, smart size rendering, lightbox, and swipe-to-slide capabilities
+- Responsive Navigation
 
 
 Created: July 2013
