@@ -1,0 +1,248 @@
+/* THI WAN 
+Designed By: Paul <chun8801@gmail.com> 
+Developed By: Eric <ehwl229@gmail.com>
+*/
+
+
+/* -------- Global Style ------------*/
+
+@font-face {
+	font-family: ProximaNova;
+	src: url('../fonts/ProximaNova-Light.otf') format('opentype');
+}
+
+@font-face {  
+	font-family: ProximaNovaBold;
+	src: url('../fonts/ProximaNova-Bold.otf') format('opentype');
+}
+
+body {
+	font-family: ProximaNova;
+	font-size: 14px;
+	margin: 0px;
+	width: 100%;
+	height: 900px;
+}
+
+
+h2.logo {
+	background: url ("images/home_logo.png");
+	text-align: center;
+	padding-top: 150px;
+	margin-left: -20px;
+}
+
+.main_logo{
+	height: 55%;
+	margin-bottom: 30px;
+}
+
+footer { 
+	background: rgba(0, 0, 0, 0.85);;
+	height: 45%;
+	padding-top: 3px;
+}
+
+ul.collection {
+	list-style: none;
+	margin-top: 20px;
+	color: #FFF;
+	margin-left: -25px;
+}
+
+ul.collection li {
+	height: 20px;
+	display: inline-block;
+	font-size: 12px;
+	width: 110px;
+}
+
+ul.collection li a {
+	list-style: none;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 12px;
+}
+ul.collection li.social  {
+	padding-left: 74%;
+	width: 85px;
+}
+ul.collection li.social a {
+	margin-right: 5px;
+}
+
+
+ul.collection li a:hover {
+	font-family: ProximaNovaBold;
+	font-size: 11px;
+}
+
+.collection li a.selected {
+	font-family: ProximaNovaBold;
+	font-size: 11px;
+	padding-left: -2px
+}
+
+ul.projects {
+	list-style: none;
+	margin-top: 20px;
+	color: #FFF;
+	margin-left: -25px;
+}
+
+ul.projects li {
+	display: inline-block;
+	font-size: 12px;
+	width: 200px;
+}
+
+ul.projects li a {
+	height: 50px;
+	list-style: none;
+	text-decoration: none;
+	color: #FFF;
+	margin-right: 20px;
+	font-size: 12px;
+	margin-left: -122px;
+}
+
+ul.projects li.indent {
+	padding-left: 30px
+}
+
+ul.projects li a:hover {
+	font-family: ProximaNovaBold;
+	font-size: 11px;
+}
+
+ul.projects li a.selected {
+	font-family: ProximaNovaBold;
+	font-size: 11px;
+
+}
+
+ul.nav {
+	list-style: none;
+	color: #FFF;
+	margin-left: -25px;
+}
+
+ul.nav li {
+	width: 400px;
+	height: 20px;
+	font-size: 12px;
+}
+
+ul.nav li a {
+	list-style: none;
+	text-decoration: none;
+	color: #FFF;
+	margin-right: 20px;
+	font-size: 12px;
+}
+
+ul.nav li a:hover {
+	font-family: ProximaNovaBold;
+	font-size: 11px;
+}
+
+ul.nav li a.selected {
+	font-family: ProximaNovaBold;
+	font-size: 11px;
+} 
+
+.top-nav-logo {
+	margin-top: 25px;
+	margin-left: 45px;
+	margin-bottom: 10px
+}
+
+/*---- Bio Page -------*/
+.bio {
+	background: url(../images/About_background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 500px;
+	width: 100%;
+
+}
+
+.bio p{
+	width: 500px;
+	height: 300px;
+	margin-left: 50px;
+	padding-top: 15px;
+	line-height: 24px;
+}
+
+/* ----- Contact Page -----*/
+
+.contact{
+	margin-left: 50px;
+	padding-top: 15px;
+	width: 500px;
+	height: 500px;
+	line-height: 24px;
+}
+
+.contact a {
+	color:#771927;
+	text-decoration: none;
+}
+
+p.developer {
+	padding-top: 250px;
+}
+
+/*----- Scroll Bar -----*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.75); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0,0,0,0.8); 
+}
+
+/*----- Responsive -------*/
+
+
+@media screen and (max-width: 815px) {
+
+	ul.collection li.social  {
+	display:none;
+	}
+
+
+	ul.projects li {
+	display: inherit;
+	font-size: 12px;
+	width: 200px;
+	}
+
+	ul.projects li.indent {
+	padding-left: 120px;
+	}
+
+	ul.collection li {
+	height: 20px;
+	display: inherit;
+	font-size: 12px;
+	width: 110px;
+	}
+
+}
